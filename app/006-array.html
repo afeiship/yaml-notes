@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>array | yaml-notes</title>
+    <meta name="description" content="Notes for yaml.">
+    <link rel="icon" href="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg">
+    
+    <link rel="preload" href="/yaml-notes/assets/css/0.styles.2ad5d75a.css" as="style"><link rel="preload" href="/yaml-notes/assets/js/app.760f1293.js" as="script"><link rel="preload" href="/yaml-notes/assets/js/2.4a2db3fc.js" as="script"><link rel="preload" href="/yaml-notes/assets/js/11.e359c9c6.js" as="script"><link rel="prefetch" href="/yaml-notes/assets/js/10.6ace81a7.js"><link rel="prefetch" href="/yaml-notes/assets/js/12.a7f99840.js"><link rel="prefetch" href="/yaml-notes/assets/js/13.071c5859.js"><link rel="prefetch" href="/yaml-notes/assets/js/14.2ad0015d.js"><link rel="prefetch" href="/yaml-notes/assets/js/15.6e58dccb.js"><link rel="prefetch" href="/yaml-notes/assets/js/16.d646b147.js"><link rel="prefetch" href="/yaml-notes/assets/js/3.05f7a331.js"><link rel="prefetch" href="/yaml-notes/assets/js/4.78dc510e.js"><link rel="prefetch" href="/yaml-notes/assets/js/5.cf7845fb.js"><link rel="prefetch" href="/yaml-notes/assets/js/6.1d027241.js"><link rel="prefetch" href="/yaml-notes/assets/js/7.c6d6759b.js"><link rel="prefetch" href="/yaml-notes/assets/js/8.250e8c88.js"><link rel="prefetch" href="/yaml-notes/assets/js/9.cdc67c4e.js">
+    <link rel="stylesheet" href="/yaml-notes/assets/css/0.styles.2ad5d75a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/yaml-notes/" class="home-link router-link-active"><!----> <span class="site-name">yaml-notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Get started</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yaml-notes/app/001-why.html" class="sidebar-link">why</a></li><li><a href="/yaml-notes/app/002-intro.html" class="sidebar-link">intro</a></li><li><a href="/yaml-notes/app/003-syntax.html" class="sidebar-link">sytax</a></li><li><a href="/yaml-notes/app/004-data-struct.html" class="sidebar-link">data-struct</a></li><li><a href="/yaml-notes/app/006-array.html" class="active sidebar-link">array</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/yaml-notes/app/006-array.html#yaml" class="sidebar-link">yaml</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/006-array.html#json" class="sidebar-link">json</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/006-array.html#more-complex" class="sidebar-link">more complex</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/006-array.html#complex-json" class="sidebar-link">complex json</a></li></ul></li><li><a href="/yaml-notes/app/007-primitive.html" class="sidebar-link">primitive</a></li><li><a href="/yaml-notes/app/008-with-html.html" class="sidebar-link">with html</a></li><li><a href="/yaml-notes/app/009-reference.html" class="sidebar-link">reference</a></li><li><a href="/yaml-notes/app/010-js-yaml.html" class="sidebar-link">js-yaml</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="content default"><h1 id="array"><a href="#array" aria-hidden="true" class="header-anchor">#</a> array</h1> <blockquote><p>一组连词线开头的行，构成一个数组.</p></blockquote> <h2 id="yaml"><a href="#yaml" aria-hidden="true" class="header-anchor">#</a> yaml</h2> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token punctuation">-</span> Cat
+<span class="token punctuation">-</span> Dog
+<span class="token punctuation">-</span> Goldfish
+
+
+<span class="token key atrule">animal</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>Cat<span class="token punctuation">,</span> Dog<span class="token punctuation">]</span>
+</code></pre></div><h2 id="json"><a href="#json" aria-hidden="true" class="header-anchor">#</a> json</h2> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span><span class="token string">&quot;Cat&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;Dog&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;Goldfish&quot;</span><span class="token punctuation">]</span>
+
+<span class="token comment">// Inline</span>
+<span class="token punctuation">{</span><span class="token property">&quot;animal&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span><span class="token string">&quot;Cat&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;Dog&quot;</span><span class="token punctuation">]</span><span class="token punctuation">}</span>
+</code></pre></div><h2 id="more-complex"><a href="#more-complex" aria-hidden="true" class="header-anchor">#</a> more complex</h2> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">languages</span><span class="token punctuation">:</span>
+ <span class="token punctuation">-</span> Ruby
+ <span class="token punctuation">-</span> Perl
+ <span class="token punctuation">-</span> Python 
+<span class="token key atrule">websites</span><span class="token punctuation">:</span>
+ <span class="token key atrule">YAML</span><span class="token punctuation">:</span> yaml.org 
+ <span class="token key atrule">Ruby</span><span class="token punctuation">:</span> ruby<span class="token punctuation">-</span>lang.org 
+ <span class="token key atrule">Python</span><span class="token punctuation">:</span> python.org 
+ <span class="token key atrule">Perl</span><span class="token punctuation">:</span> use.perl.org 
+</code></pre></div><h2 id="complex-json"><a href="#complex-json" aria-hidden="true" class="header-anchor">#</a> complex json</h2> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;languages&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">&quot;Ruby&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;Perl&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;Python&quot;</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;websites&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;YAML&quot;</span><span class="token operator">:</span> <span class="token string">&quot;yaml.org&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;Ruby&quot;</span><span class="token operator">:</span> <span class="token string">&quot;ruby-lang.org&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;Python&quot;</span><span class="token operator">:</span> <span class="token string">&quot;python.org&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;Perl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;use.perl.org&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/yaml-notes/app/004-data-struct.html" class="prev">
+          data-struct
+        </a></span> <span class="next"><a href="/yaml-notes/app/007-primitive.html">
+          primitive
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/yaml-notes/assets/js/app.760f1293.js" defer></script><script src="/yaml-notes/assets/js/2.4a2db3fc.js" defer></script><script src="/yaml-notes/assets/js/11.e359c9c6.js" defer></script>
+  </body>
+</html>

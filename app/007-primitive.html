@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>primitive | yaml-notes</title>
+    <meta name="description" content="Notes for yaml.">
+    <link rel="icon" href="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg">
+    
+    <link rel="preload" href="/yaml-notes/assets/css/0.styles.2ad5d75a.css" as="style"><link rel="preload" href="/yaml-notes/assets/js/app.760f1293.js" as="script"><link rel="preload" href="/yaml-notes/assets/js/2.4a2db3fc.js" as="script"><link rel="preload" href="/yaml-notes/assets/js/12.a7f99840.js" as="script"><link rel="prefetch" href="/yaml-notes/assets/js/10.6ace81a7.js"><link rel="prefetch" href="/yaml-notes/assets/js/11.e359c9c6.js"><link rel="prefetch" href="/yaml-notes/assets/js/13.071c5859.js"><link rel="prefetch" href="/yaml-notes/assets/js/14.2ad0015d.js"><link rel="prefetch" href="/yaml-notes/assets/js/15.6e58dccb.js"><link rel="prefetch" href="/yaml-notes/assets/js/16.d646b147.js"><link rel="prefetch" href="/yaml-notes/assets/js/3.05f7a331.js"><link rel="prefetch" href="/yaml-notes/assets/js/4.78dc510e.js"><link rel="prefetch" href="/yaml-notes/assets/js/5.cf7845fb.js"><link rel="prefetch" href="/yaml-notes/assets/js/6.1d027241.js"><link rel="prefetch" href="/yaml-notes/assets/js/7.c6d6759b.js"><link rel="prefetch" href="/yaml-notes/assets/js/8.250e8c88.js"><link rel="prefetch" href="/yaml-notes/assets/js/9.cdc67c4e.js">
+    <link rel="stylesheet" href="/yaml-notes/assets/css/0.styles.2ad5d75a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/yaml-notes/" class="home-link router-link-active"><!----> <span class="site-name">yaml-notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Get started</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yaml-notes/app/001-why.html" class="sidebar-link">why</a></li><li><a href="/yaml-notes/app/002-intro.html" class="sidebar-link">intro</a></li><li><a href="/yaml-notes/app/003-syntax.html" class="sidebar-link">sytax</a></li><li><a href="/yaml-notes/app/004-data-struct.html" class="sidebar-link">data-struct</a></li><li><a href="/yaml-notes/app/006-array.html" class="sidebar-link">array</a></li><li><a href="/yaml-notes/app/007-primitive.html" class="active sidebar-link">primitive</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/yaml-notes/app/007-primitive.html#类型如下" class="sidebar-link">类型如下</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/007-primitive.html#null" class="sidebar-link">null</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/007-primitive.html#时间" class="sidebar-link">时间</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/007-primitive.html#日期" class="sidebar-link">日期</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/007-primitive.html#boolean" class="sidebar-link">boolean</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/007-primitive.html#多行字符串" class="sidebar-link">多行字符串</a></li><li class="sidebar-sub-header"><a href="/yaml-notes/app/007-primitive.html#头层换行去除" class="sidebar-link">头层换行去除</a></li></ul></li><li><a href="/yaml-notes/app/008-with-html.html" class="sidebar-link">with html</a></li><li><a href="/yaml-notes/app/009-reference.html" class="sidebar-link">reference</a></li><li><a href="/yaml-notes/app/010-js-yaml.html" class="sidebar-link">js-yaml</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="content default"><h1 id="primitive"><a href="#primitive" aria-hidden="true" class="header-anchor">#</a> primitive</h1> <blockquote><p>纯量是最基本的、不可再分的值。以下数据类型都属于 JavaScript 的纯量.</p></blockquote> <h2 id="类型如下"><a href="#类型如下" aria-hidden="true" class="header-anchor">#</a> 类型如下</h2> <ul><li>字符串</li> <li>布尔值</li> <li>整数</li> <li>浮点数</li> <li>Null</li> <li>时间</li> <li>日期</li></ul> <h2 id="null"><a href="#null" aria-hidden="true" class="header-anchor">#</a> null</h2> <blockquote><p>null用 ~ 表示</p></blockquote> <h2 id="时间"><a href="#时间" aria-hidden="true" class="header-anchor">#</a> 时间</h2> <blockquote><p>时间采用 ISO8601 格式
+iso8601: 2001-12-14t21:59:43.10-05:00</p></blockquote> <h2 id="日期"><a href="#日期" aria-hidden="true" class="header-anchor">#</a> 日期</h2> <blockquote><p>日期采用复合 iso8601 格式的年、月、日表示。
+date: 1976-07-31</p></blockquote> <h2 id="boolean"><a href="#boolean" aria-hidden="true" class="header-anchor">#</a> boolean</h2> <blockquote><p>强制转换数据类型</p></blockquote> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">e</span><span class="token punctuation">:</span> <span class="token tag">!!str</span> <span class="token number">123</span>
+<span class="token key atrule">f</span><span class="token punctuation">:</span> <span class="token tag">!!str</span> <span class="token boolean important">true</span>
+</code></pre></div><h2 id="多行字符串"><a href="#多行字符串" aria-hidden="true" class="header-anchor">#</a> 多行字符串</h2> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">this</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
+  Foo
+  Bar</span>
+<span class="token key atrule">that</span><span class="token punctuation">:</span> <span class="token punctuation">&gt;</span><span class="token scalar string">
+  Foo
+  Bar</span>
+</code></pre></div><h2 id="头层换行去除"><a href="#头层换行去除" aria-hidden="true" class="header-anchor">#</a> 头层换行去除</h2> <blockquote><p>+表示保留文字块末尾的换行，-表示删除字符串末尾的换行。</p></blockquote> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">s1</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
+  Foo</span>
+
+<span class="token key atrule">s2</span><span class="token punctuation">:</span> <span class="token punctuation">|</span>+
+  Foo
+
+<span class="token key atrule">s3</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token punctuation">-</span>
+  Foo
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/yaml-notes/app/006-array.html" class="prev">
+          array
+        </a></span> <span class="next"><a href="/yaml-notes/app/008-with-html.html">
+          with html
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/yaml-notes/assets/js/app.760f1293.js" defer></script><script src="/yaml-notes/assets/js/2.4a2db3fc.js" defer></script><script src="/yaml-notes/assets/js/12.a7f99840.js" defer></script>
+  </body>
+</html>

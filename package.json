@@ -15,11 +15,17 @@
     "type": "git",
     "url": "git+https://github.com/afeiship/yaml-notes.git"
   },
-  "keywords": ["yaml", "notes"],
+  "keywords": [
+    "yaml",
+    "notes"
+  ],
   "author": "afei",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/afeiship/yaml-notes/issues"
   },
-  "homepage": "https://github.com/afeiship/yaml-notes#readme"
+  "homepage": "https://github.com/afeiship/yaml-notes#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  }
 }

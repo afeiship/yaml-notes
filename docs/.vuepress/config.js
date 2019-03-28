@@ -18,13 +18,15 @@ module.exports = {
         title: 'Get started',
         collapsable: false,
         children: [
-          '/javascript/001-why.md',
-          '/javascript/002-intro.md',
-          '/javascript/003-syntax.md',
-          '/javascript/004-data-struct.md',
-          '/javascript/006-array.md',
-          '/javascript/007-primitive.md',
-          '/javascript/008-with-html.md'
+          '/app/001-why.md',
+          '/app/002-intro.md',
+          '/app/003-syntax.md',
+          '/app/004-data-struct.md',
+          '/app/006-array.md',
+          '/app/007-primitive.md',
+          '/app/008-with-html.md',
+          '/app/009-reference.md',
+          '/app/010-js-yaml.md'
         ]
       }
     ]

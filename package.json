@@ -27,5 +27,8 @@
   "homepage": "https://github.com/afeiship/yaml-notes#readme",
   "devDependencies": {
     "vuepress": "^1.0.0-alpha.44"
+  },
+  "dependencies": {
+    "js-yaml": "^3.13.0"
   }
 }

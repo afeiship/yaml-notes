@@ -3,6 +3,7 @@
 > &用来建立锚点（defaults），<<表示合并到当前数据，*用来引用锚点.
 
 ## yaml
+> `<<: *defaults` 这里放在前面，或者后面，没有关系，都是下面的选项覆盖 &default 的值.
 
 ```yml
 defaults: &defaults

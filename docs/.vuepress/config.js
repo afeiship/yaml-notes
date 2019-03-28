@@ -21,7 +21,7 @@ module.exports = {
           '/javascript/001-why.md',
           '/javascript/002-intro.md',
           '/javascript/003-syntax.md',
-          '/javascript/004-data-structt.md',
+          '/javascript/004-data-struct.md',
           '/javascript/006-array.md',
           '/javascript/007-primitive.md',
           '/javascript/008-with-html.md'

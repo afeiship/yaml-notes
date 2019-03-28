@@ -1,6 +1,9 @@
 # yaml-notes
 > Notes for yaml.
 
+## docs
+- https://afeiship.github.io/yaml-notes/
+
 ## resources
 - https://yaml.org/
 - https://yaml.org/YAML_for_ruby.html

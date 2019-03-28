@@ -5,6 +5,9 @@
 Basic install steps.
 :::
 
+## logo
+![YAML](https://ws1.sinaimg.cn/large/006tKfTcly1g1izksx9bqj306d02ct8q.jpg)
+
 ## Javascript
   - [Home](/)
   - [001-why](/app/001-why.md)
